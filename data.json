@@ -1,0 +1,143 @@
+{
+    "ResumeId": "1",
+    "name": "Meghana Sai Vattikuti",
+    "label": "Cloud Developer and Software Engineer",
+    "image": "",
+    "email": "vattikuti.m@northeastern.edu",
+    "phone": "(857) 891-3490",
+    "url": "www.meghanasaivattikuti.com",
+    "summary": "My coding adventure started with a humble calculator program nine years ago. Since then, I've delved into the complexities of Cloud and Software Development, embracing every challenge along the way! My experiences at Deloitte and Siemens were game-changers, reshaping how I approach problems and master them from scratch. Whether it's enhancing e-commerce systems or optimizing industrial applications, I've learned to immerse myself fully and always come out ready (AND ALIVE!) for the next adventure. I thrive on challenges that push the envelope and am perpetually on the lookout for the next big thing. My passion lies in leveraging technology to make life better and businesses smarter. I'm all about connecting, learning, and growing together. If you're navigating the thrilling world of tech and innovation, let's sync up! Whether it's a project collaboration or just a tech talk over coffee, feel free to reach out.",
+    "location": {
+      "address": "40 Forest Street",
+      "postalCode": "MA 02119",
+      "city": "Boston",
+      "countryCode": "US",
+      "region": "Massachusetts"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "meghanasai",
+        "url": "https://www.linkedin.com/in/meghanasai/"
+      }
+    ],
+    "work": [
+      {
+        "name": "Siemens",
+        "position": "Software Developer",
+        "url": "https://www.siemens.com/us/en.html",
+        "startDate": "2023-05-11",
+        "endDate": "2023-12-04",
+        "summary": "• Evaluated scalability of the infrastructure used by the service and improved customer overhead by 10% on a site load • Engineered an asset tree that detects new devices connecting to the network improving resource efficiency by 25% • Designed and built a topology viewer for assets built on Zeek data providing real-time monitoring of connections and source ports highlighting network vulnerabilities, leading to a 30% increase in network issue debugging efficiency • Programmed a dark web threat intelligence telegram bot that detects dark web URLs, downloads their data for Autopsy analysis, tracks job status progress, updates users and tests file on demand"
+      },
+      {
+        "name": "Deloitte",
+        "position": "Business Technology Analyst",
+        "url": "https://www2.deloitte.com/ui/en.html",
+        "startDate": "2020-09-17",
+        "endDate": "2022-06-09",
+        "summary": "• Streamlined B2B/B2C operations by 15% through microservice optimization and collaborative e-commerce solutions for products • Managed AWS services like EC2, S3, ECS, RDS, CloudWatch to achieve fault-tolerant, high availability scalable applications • Investigated and troubleshooted system/performance issues to reduce downtime by 80% by facilitating root cause analysis • Led process optimization efforts with UiPath, yielding 2000 hours of reclaimed resource time • Spearheaded 15% application performance improvement through communication with cross-functional teams, collaborative codebase debugging and problem solving, logging, and order/customer management optimization using New Relic and Kibana"
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Code Your Dreams",
+        "position": "Tech Community Lead",
+        "url": "https://www.codeyourdreams.org/",
+        "startDate": "2024-01-01",
+        "endDate": "",
+        "summary": "Create resources"
+      },
+      {
+        "organization": "Northeastern University",
+        "position": "MSIS Bridge Mentor",
+        "url": "https://www.northeastern.edu/",
+        "startDate": "2023-08-01",
+        "endDate": "",
+        "summary": "Mentor"
+      }
+    ],
+    "education": [
+      {
+        "institution": "University",
+        "url": "https://institution.com/",
+        "area": "Software Development",
+        "studyType": "Bachelor",
+        "startDate": "2011-01-01",
+        "endDate": "2013-01-01",
+        "score": "4.0",
+        "courses": [
+          "DB1101 - Basic SQL"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "title": "Award",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Certificate",
+        "date": "2021-11-07",
+        "issuer": "Company",
+        "url": "https://certificate.com"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "2014-10-01",
+        "url": "https://publication.com",
+        "summary": "Description…"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      }
+    ],
+    "languages": [
+      {
+      "language": "English",
+      "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Wildlife",
+        "keywords": [
+          "Ferrets",
+          "Unicorns"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Jane Doe",
+        "reference": "Reference…"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Project",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Description...",
+        "highlights": [
+          "Won award at AIHacks 2016"
+        ],
+        "url": "https://project.com/"
+      }
+    ]
+  }

@@ -21,4 +21,4 @@ jobs:
 
       - name: Invoke Lambda Function
         run: |
-          aws lambda invoke --function-name MyLambdaFunction data.json
+          aws lambda invoke --function-name MyLambdaFunction --payload data.json

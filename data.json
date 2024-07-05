@@ -1,4 +1,5 @@
-{ "httpMethod": "POST",
+{
+  "httpMethod": "POST",
   "body": {
     "ResumeId": "1",
     "name": "Meghana Sai Vattikuti",

@@ -21,4 +21,4 @@ jobs:
 
       - name: Invoke Lambda Function
         run: |
-          aws lambda invoke --function-name MyLambdaFunction --payload file://data.json response.json
+          aws lambda invoke --function-name MyLambdaFunction --payload file://data.json response.json --cli-binary-format raw-in-base64-out

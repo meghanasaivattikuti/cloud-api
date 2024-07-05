@@ -28,7 +28,7 @@
         "url": "https://www.siemens.com/us/en.html",
         "startDate": "2023-05-11",
         "endDate": "2023-12-04",
-        "summary": "Evaluated scalability of the infrastructure used by the service and improved customer overhead by 10% on a site load  Engineered an asset tree that detects new devices connecting to the network improving resource efficiency by 25% • Designed and built a topology viewer for assets built on Zeek data providing real-time monitoring of connections and source ports highlighting network vulnerabilities, leading to a 30% increase in network issue debugging efficiency  Programmed a dark web threat intelligence telegram bot that detects dark web URLs, downloads their data for Autopsy analysis, tracks job status progress, updates users and tests file on demand"
+        "summary": "Evaluated scalability of the infrastructure used by the service and improved customer overhead by 10% on a site load  Engineered an asset tree that detects new devices connecting to the network improving resource efficiency by 25% ,Designed and built a topology viewer for assets built on Zeek data providing real-time monitoring of connections and source ports highlighting network vulnerabilities, leading to a 30% increase in network issue debugging efficiency  Programmed a dark web threat intelligence telegram bot that detects dark web URLs, downloads their data for Autopsy analysis, tracks job status progress, updates users and tests file on demand"
       },
       {
         "name": "Deloitte",
@@ -36,7 +36,7 @@
         "url": "https://www2.deloitte.com/ui/en.html",
         "startDate": "2020-09-17",
         "endDate": "2022-06-09",
-        "summary": "Streamlined B2B/B2C operations by 15% through microservice optimization and collaborative e-commerce solutions for products • Managed AWS services like EC2, S3, ECS, RDS, CloudWatch to achieve fault-tolerant, high availability scalable applications ,Investigated and troubleshooted system/performance issues to reduce downtime by 80% by facilitating root cause analysis, Led process optimization efforts with UiPath, yielding 2000 hours of reclaimed resource time , Spearheaded 15% application performance improvement through communication with cross-functional teams, collaborative codebase debugging and problem solving, logging, and order/customer management optimization using New Relic and Kibana"
+        "summary": "Streamlined B2B/B2C operations by 15% through microservice optimization and collaborative e-commerce solutions for products , Managed AWS services like EC2, S3, ECS, RDS, CloudWatch to achieve fault-tolerant, high availability scalable applications ,Investigated and troubleshooted system/performance issues to reduce downtime by 80% by facilitating root cause analysis, Led process optimization efforts with UiPath, yielding 2000 hours of reclaimed resource time , Spearheaded 15% application performance improvement through communication with cross-functional teams, collaborative codebase debugging and problem solving, logging, and order/customer management optimization using New Relic and Kibana"
       }
     ],
     "volunteer": [
@@ -93,7 +93,7 @@
         "publisher": "Company",
         "releaseDate": "2014-10-01",
         "url": "https://publication.com",
-        "summary": "Description…"
+        "summary": "Description"
       }
     ],
     "skills": [
@@ -125,7 +125,7 @@
     "Preferences": [
       {
         "name": "Jane Doe",
-        "reference": "Reference…"
+        "reference": "Reference"
       }
     ],
     "projects": [
@@ -133,7 +133,7 @@
         "name": "Project",
         "startDate": "2019-01-01",
         "endDate": "2021-01-01",
-        "description": "Description...",
+        "description": "Description",
         "highlights": [
           "Won award at AIHacks 2016"
         ],

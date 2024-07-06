@@ -123,7 +123,9 @@ async function updateData(data) {
 }
 
 async function getData(queryParams) {
+    console.log("Query parameters:", JSON.stringify(queryParams, null, 2));
     if (!queryParams.id) {
+        console.log("Missing required query parameter 'id'");
         return {
             statusCode: 400,
             body: JSON.stringify({ message: "Missing required query parameter 'id'" })
@@ -137,16 +139,20 @@ async function getData(queryParams) {
         }
     };
 
+    console.log("Querying DynamoDB with params:", JSON.stringify(params, null, 2));
+
     try {
-        const { Item } = await dynamo.get(params).promise();
-        if (Item) {
+        const result = await dynamo.get(params).promise();
+        console.log("DynamoDB response:", JSON.stringify(result, null, 2));
+        if (result.Item) {
             // Convert DynamoDB response to a more user-friendly format
-            const unmarshalledItem = unmarshall(Item);
+            const unmarshalledItem = unmarshall(result.Item);
             return {
                 statusCode: 200,
                 body: JSON.stringify(unmarshalledItem)
             };
         } else {
+            console.log("Resume not found");
             return {
                 statusCode: 404,
                 body: JSON.stringify({ message: "Resume not found" })

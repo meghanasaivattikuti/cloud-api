@@ -122,6 +122,13 @@ async function updateData(data) {
 }
 
 async function getData(queryParams) {
+    if (!queryParams.id) {
+        return {
+            statusCode: 400,
+            body: JSON.stringify({ message: "Missing required query parameter 'id'" })
+        };
+    }
+
     const params = {
         TableName: "Resumes",
         Key: {
@@ -132,9 +139,11 @@ async function getData(queryParams) {
     try {
         const { Item } = await dynamo.get(params).promise();
         if (Item) {
+            // Convert DynamoDB response to a more user-friendly format
+            const unmarshalledItem = unmarshall(Item);
             return {
                 statusCode: 200,
-                body: JSON.stringify(Item)
+                body: JSON.stringify(unmarshalledItem)
             };
         } else {
             return {

@@ -76,6 +76,7 @@
 
 const AWS = require('aws-sdk');
 const dynamo = new AWS.DynamoDB.DocumentClient();
+const { unmarshall } = AWS.DynamoDB.Converter;
 
 exports.handler = async (event) => {
     console.log("Received event:", JSON.stringify(event, null, 2));

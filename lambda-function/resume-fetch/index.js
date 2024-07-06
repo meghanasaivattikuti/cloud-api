@@ -149,6 +149,9 @@ async function getData(queryParams) {
             const unmarshalledItem = unmarshall(result.Item);
             return {
                 statusCode: 200,
+                headers: {
+                    "Content-Type": "application/json"
+                },
                 body: JSON.stringify(unmarshalledItem)
             };
         } else {

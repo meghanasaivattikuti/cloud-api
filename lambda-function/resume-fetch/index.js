@@ -145,21 +145,15 @@ async function getData(queryParams) {
         const result = await dynamo.get(params).promise();
         console.log("DynamoDB response:", JSON.stringify(result, null, 2));
         if (result.Item) {
-            // Convert DynamoDB response to a more user-friendly format
-            console.log("I am here checking the response" )
-             // Log the raw DynamoDB item
-             console.log("Raw DynamoDB item:", JSON.stringify(result.Item, null, 2));
-            
-             // Convert DynamoDB response to a more user-friendly format
-             const unmarshalledItem = unmarshall(result.Item);
-             console.log("Unmarshalled item:", JSON.stringify(unmarshalledItem, null, 2));
-             return {
-                 statusCode: 200,
-                 body: JSON.stringify(unmarshalledItem),
-                 headers: {
-                     "Content-Type": "application/json"
-                 }
-             };
+            // Directly return the DynamoDB item
+            console.log("Returning item:", JSON.stringify(result.Item, null, 2));
+            return {
+                statusCode: 200,
+                body: JSON.stringify(result.Item),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            };
         } else {
             console.log("Resume not found");
             return {

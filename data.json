@@ -58,88 +58,85 @@
         "summary": "Mentor"
       }
     ],
+    
     "education": [
       {
-        "institution": "University",
-        "url": "https://institution.com/",
-        "area": "Software Development",
-        "studyType": "Bachelor",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "score": "4.0",
-        "courses": [
-          "DB1101 - Basic SQL"
-        ]
-      }
-    ],
-    "awards": [
+        "institution": "Northeastern University",
+        "location": "Boston, MA",
+        "degree": "Master of Science in Information Systems",
+        "endDate": "2024-12-01"
+      },
       {
-        "title": "Award",
-        "date": "2014-11-01",
-        "awarder": "Company",
-        "summary": "There is no spoon."
+        "institution": "Motilal Nehru National Institute of Technology",
+        "location": "Allahabad, India",
+        "degree": "Bachelor of Technology in Information Technology",
+        "startDate": "2016-07-01",
+        "endDate": "2020-07-01"
       }
-    ],
+      ],
+    
+    
     "certificates": [
       {
-        "name": "Certificate",
-        "date": "2021-11-07",
-        "issuer": "Company",
-        "url": "https://certificate.com"
+        "name": "AWS Certified Cloud Practitioner",
+        "date": "2024-01-21",
+        "issuer": "Amazon",
+        "url": "https://www.credly.com/badges/635a838e-19bb-4aca-927a-a17024428032/public_url"
       }
     ],
-    "publications": [
-      {
-        "name": "Publication",
-        "publisher": "Company",
-        "releaseDate": "2014-10-01",
-        "url": "https://publication.com",
-        "summary": "Description"
-      }
-    ],
-    "skills": [
-      {
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Native speaker"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Wildlife",
-        "keywords": [
-          "Ferrets",
-          "Unicorns"
-        ]
-      }
-    ],
-    "Preferences": [
-      {
-        "name": "Jane Doe",
-        "reference": "Reference"
-      }
-    ],
+    
+   
+    
     "projects": [
       {
-        "name": "Project",
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "description": "Description",
-        "highlights": [
-          "Won award at AIHacks 2016"
-        ],
-        "url": "https://project.com/"
+        "name": "Analysis of GDP per Capita Income vs Mental Health",
+        "startDate": "2024-02-01",
+        "endDate": "2024-04-01",
+        "description": "Utilized machine learning techniques, specifically linear regression to analyze correlation between GDP per capita and mental health outcomes, successfully modeling and predicting mental health status based on economic indicators across multiple datasets using libraries like scikit-learn. Managed data collection and preprocessing ensuring data integrity and applicability for model accuracy.",
+        "highlights": [],
+        "url": ""
+      },
+      {
+        "name": "Cloud-Native Web Application (Node.js, PostgreSQL, AWS)",
+        "startDate": "2023-01-01",
+        "endDate": "2023-04-01",
+        "description": "Built a cloud-native web app REST APIs using node.js, PostgreSQL, RESTful APIs, AWS S3, and DNS mapping for enhanced UX. Created custom AMIs with Packer and managed infrastructure-as-code with Terraform (VPCs, subnets, routes, EC2/RDS instances, S3 buckets, ELBs, security groups) by implementing version control on Git having low latency and high reliability. Implemented robust CI/CD pipelines on GitHub for seamless integration and rapid code deployment.",
+        "highlights": [],
+        "url": ""
+      },
+      {
+        "name": "A Drop for Life, Northeastern University",
+        "startDate": "2022-10-01",
+        "endDate": "2022-12-01",
+        "description": "Built a full-stack app with PayPal API for smooth payments, linking blood donors, recipients, banks, and hospitals. Leveraged Bootstrap, React, MongoDB, and Node.js for efficient frontend and backend web development.",
+        "highlights": [],
+        "url": ""
+      }
+    ],
+    
+    "leadershipAchievementsCertifications": [
+      {
+        "title": "Tech Community Lead for ‘Code Your Dreams’",
+        "description": "Empowering underprivileged youth passionate about computer science"
+      },
+      {
+        "title": "Grant recipient for AWS Reinvent",
+        "description": "A leading cloud conference for workshops, discussions with experts, & valuable networking"
+      },
+      {
+        "title": "One-on-one Mentorship",
+        "description": "Empowered individuals through one-on-one mentorship, helping them navigate career paths and unlock their potential"
+      },
+      {
+        "title": "Spot Awards",
+        "description": "Received spot awards for reducing priority incidents by 40% for identification and troubleshooting infra issues and for RPA automation"
+      },
+      {
+        "title": "Monetary Award",
+        "description": "Received a monetary award for interaction with clients and handling high priority incidents during peak business, increasing sales by 10%"
       }
     ]
+    
   }
+    
 }

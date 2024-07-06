@@ -162,7 +162,7 @@ async function getData(queryParams) {
             };
         }
     } catch (error) {
-        console.error("Error retrieving data:", error);
+        console.error("Error retrieving data: ", error);
         return {
             statusCode: 500,
             body: JSON.stringify({ message: "Failed to retrieve data" })

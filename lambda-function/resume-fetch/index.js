@@ -146,7 +146,9 @@ async function getData(queryParams) {
         console.log("DynamoDB response:", JSON.stringify(result, null, 2));
         if (result.Item) {
             // Convert DynamoDB response to a more user-friendly format
+            console.log("I am here checking the response" )
             const unmarshalledItem = unmarshall(result.Item);
+            console.log("Unmarshalled item", JSON.stringify(unmarshalledItem))
             return {
                 statusCode: 200,
                 headers: {

@@ -55,6 +55,6 @@ Set up a GitHub Actions workflow to automatically deploy updates:
 
 ### Note
 
-This README includes only some code snippets. Check out for further details
+This README includes only some code snippets. Check out https://medium.com/@meghanasai1802/build-deploy-automate-a-serverless-resume-api-with-terraform-and-github-actions-d23aed130f00 for further details
 
 Happy coding! 🎉
